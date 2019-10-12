@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0285A0 "
+    android:orientation="vertical"
+    tools:context=".MainViaje">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicación de Viaje"
+        android:textAlignment="center"
+        android:textColor="#F8FFFEFE"
+        android:textSize="11pt"
+        app:fontFamily="sans-serif-black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese los datos correspondientes"
+        android:textAlignment="center"
+        android:textColor="#FAF4F4"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6.5pt" />
+
+    <EditText
+        android:id="@+id/etxKmRecor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kilómetros Recorridos"
+        android:textColor="#FAFFFFFF"
+        android:textColorHint="#F7FCFAFA"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxGasxL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio de gasolina por litro"
+        android:textColor="#FDFAF7F7"
+        android:textColorHint="#FCFAF8F8"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxDinGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dinero gastado en gasolina"
+        android:textColor="#F7F8F6F6"
+        android:textColorHint="#F8FAF7F7"
+        android:textSize="10pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el tiempo de viaje"
+        android:textAlignment="center"
+        android:textColor="#F8FAF9F9"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <EditText
+        android:id="@+id/etxHorasV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horas de viaje..."
+        android:textColor="#F8FAF7F7"
+        android:textColorHint="#F7F8F6F6"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxMinV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minutos de viaje..."
+        android:textColor="#F7FDFBFB"
+        android:textColorHint="#F3FCFAFA"
+        android:textSize="10pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="9pt" />
+
+    <Button
+        android:id="@+id/btnCalcularViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="10pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11pt" />
+
+    <TextView
+        android:id="@+id/txvGasKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consumo de gasolina por km"
+        android:textAlignment="center"
+        android:textColor="#FAFCF7F7"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <TextView
+        android:id="@+id/txvGasx100K"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consumo de gasolina por 100km"
+        android:textAlignment="center"
+        android:textColor="#F8F7F2F2"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <TextView
+        android:id="@+id/txvVelMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Velocidad Media"
+        android:textAlignment="center"
+        android:textColor="#FAFCFAFA"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <Button
+        android:id="@+id/btnRegresarViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="7pt" />
+
+</LinearLayout>
